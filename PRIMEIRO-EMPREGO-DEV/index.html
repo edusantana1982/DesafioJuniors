@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Pedidos Produção</title>
+</head>
+
+<body>
+
+    <div>
+        <!--Formulario-->
+        <form method="post">
+
+            <input type="text" id="product" placeholder="Digite o que será produzido">
+            <input type="number" id="amount" placeholder="Quantidade solicitada">
+            <input type="date" id="dateProd">
+            <input type="submit" id="btnRegister" value="Cadastrar">
+
+
+        </form>
+    </div>
+    <!--Lista para Produção-->
+    <table>
+        <thead>
+            <tr>
+                <th>Ordem</th>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Prazo Finalização</th>
+                <th>Insumos</th>
+                <th>Fabricado</th>
+            </tr><br><br><br>
+        </thead>
+        <tbody id="inProduction">
+            <tr>
+                <th>1</th>
+                <td>Camisa lisa</td>
+                <td>5</td>
+                <td>12/10/2023</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+
+    </div>
+
+    <script src="PedidosProducao.js"></script>
+</body>
+
+</html>
